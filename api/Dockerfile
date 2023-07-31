@@ -2,6 +2,7 @@ FROM directus/directus:latest
 # Expose the necessary port
 EXPOSE 8055
 
+RUN echo $USER
 # Create directories for data and uploads inside the container
 RUN mkdir -p /api/database /api/uploads
 
