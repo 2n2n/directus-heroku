@@ -1,3 +1,4 @@
+FROM directus/directus:latest
 # Expose the necessary port
 EXPOSE 8055
 
